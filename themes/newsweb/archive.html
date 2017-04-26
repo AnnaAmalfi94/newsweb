@@ -57,9 +57,9 @@ $(document).ready(function () {
 					  <span id="pasta" style="color:#777;font-size:12px;font-weight:600;"><span class="fa fa-calendar">
                </span>&nbsp;<%= TemplateTags.formatDate(post.date,'d/m/Y') %></span>
 					</div>
-					<div style="" class="angolo testo">
+					<a style="text-decoration:none;" href="<%= TemplateTags.getPostLink(post.id) %>"><div style="" class="angolo testo">
                         <h2 style="padding:0;margin:0;">
-                              <a href="<%= TemplateTags.getPostLink(post.id) %>"><%= post.title %></a>                        
+                              <%= post.title %>                       
                         </h2>
 						<div class="dn">  <span style="color:#777;font-size:12px;font-weight:600;"><span class="fa fa-calendar">
                </span>&nbsp;<%= TemplateTags.formatDate(post.date,'d/m/Y') %></span> - <span style="color:#777;font-size:12px;font-weight:600;"><span class="glyphicon glyphicon-comment"></span>&nbsp; <%= nb_comments %>&nbsp; <% if( post.nb_comments === 1 ){
@@ -69,11 +69,11 @@ else {
 print("commenti")
 
 } %></span></div>
-						<p style="margin:0;font-style:italic;font-size:13px;"><%= post.excerpt %></p>
+						<p style="margin:0;font-style:italic;font-size:13px;color:#666;"><%= post.excerpt %></p>
 						
 						
 
-</div>
+</div></a>
            				 
 			<div class="clearfix"></div>	 
 				 
