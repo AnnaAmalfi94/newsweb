@@ -5,29 +5,6 @@ define(['jquery','core/theme-app','core/theme-tpl-tags','core/modules/storage','
    
    
    
-       /*
-* AdMob's tests
-*/
-
-if(AdMob) AdMob.createBanner({
-    adId: 'ca-app-pub-1678140066968649/9809572817', // Paste the ad unit ID we've have copied earlier
-    overlap: false,
-    offsetTopBar: false,
-    adSize: 'SMART_BANNER',
-    position: AdMob.AD_POSITION.BOTTOM_CENTER,
-    isTesting: false, // set to true, to receiving test ad for testing purpose
-    bgColor: 'black', // color name, or '#RRGGBB'
-});
-   
- 
-
-   
-   
-   
-   
-   
-   
-   
    
   
 			document.addEventListener('deviceready', function () {
