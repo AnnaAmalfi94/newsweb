@@ -52,7 +52,9 @@ if(AdMob) AdMob.createBanner({
    
    
    
-  
+  App.on( 'info:app-first-launch', function( event ) {
+      App.showCustomPage( 'first-template' );
+} );
    
    
    
