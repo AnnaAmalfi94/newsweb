@@ -37,7 +37,7 @@
 	<access origin="*" />
 	<allow-intent href="*" />
 	<allow-navigation href="*" />
-
+	<preference name="android-minSdkVersion" value="19"/>
 	<!-- SplashScreen configuration -->
 	<preference name="SplashScreen" value="splash" />
 	<preference name="SplashScreenDelay" value="10000" />
