@@ -45,9 +45,9 @@
 	<preference name="ShowSplashScreenSpinner" value="false" />
 	
 	
-	<preference name="android-targetSdkVersion" value="20" />
-        <preference name="android-minSdkVersion" value="18" />
-        <preference name="android-maxSdkVersion" value="21" />
+	
+        <preference name="android-minSdkVersion" value="8" />
+       
 
 	<!-- Icons and Splashscreens declaration -->
 
