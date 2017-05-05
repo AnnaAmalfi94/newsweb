@@ -46,7 +46,6 @@
 	
 	
 	
-        <preference name="android-minSdkVersion" value="24" />
        
 
 	<!-- Icons and Splashscreens declaration -->
