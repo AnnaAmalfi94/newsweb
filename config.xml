@@ -32,6 +32,9 @@
 	<plugin name="nl.x-services.plugins.socialsharing" />
 	<plugin name="onesignal-cordova-plugin" spec="^2.0.10" source="npm" />
 	<plugin name="cordova-plugin-admobpro" source="npm" />
+	
+	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />
+	<preference name="xwalkMultipleApk" value="true" />
 
 	<!-- Whitelist policy  -->
 	<access origin="*" />
