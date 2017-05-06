@@ -25,7 +25,7 @@
 	<plugin name="cordova-plugin-splashscreen" source="npm" />
 	<plugin name="cordova-plugin-device" source="npm" />
 	<plugin name="cordova-plugin-statusbar" source="npm" />
-	<plugin name="cordova-plugin-crosswalk-webview-pgb-adapt" source="npm" />
+	<gap:plugin name="cordova-plugin-crosswalk-webview-pgb-adapt" source="npm" version="1.4.0-dev-5"/>
 	<plugin name="cordova-plugin-customurlscheme" spec="4.2.0" >
 		<param name="URL_SCHEME" value="newsweb" />
 	</plugin>
@@ -37,16 +37,13 @@
 	<access origin="*" />
 	<allow-intent href="*" />
 	<allow-navigation href="*" />
-	<preference name="android-minSdkVersion" value="19"/>
+	
+	
 	<!-- SplashScreen configuration -->
 	<preference name="SplashScreen" value="splash" />
 	<preference name="SplashScreenDelay" value="10000" />
 	<preference name="FadeSplashScreenDuration" value="300" />
-	<preference name="ShowSplashScreenSpinner" value="false" />
-	
-	
-	
-	
+	<preference name="ShowSplashScreenSpinner" value="false" />	
        
 
 	<!-- Icons and Splashscreens declaration -->
