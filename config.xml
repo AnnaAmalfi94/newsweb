@@ -35,6 +35,7 @@
 	
 	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />
 	<preference name="xwalkMultipleApk" value="true" />
+	<preference name="buildArchitecture" value="x86" />
 
 	<!-- Whitelist policy  -->
 	<access origin="*" />
