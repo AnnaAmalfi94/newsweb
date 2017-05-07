@@ -43,7 +43,7 @@ $(document).ready(function () {
             <% _.each( posts, function( post ){ %>
                   <% var nb_comments = post.nb_comments %>
                   <li style="margin-bottom:20px;" class="col-xs-6 col-sm-4">
-				  <div style="padding:5px;background-color:white;border-radius:5px">
+				  <div style="padding:5px;background-color:white;border-radius:5px;height:300px;overflow:hidden">
 				  <% if( post.thumbnail.src && post.thumbnail.src.length ){ %>
 						 <a href="<%= TemplateTags.getPostLink(post.id) %>"><div class="icon-comment archiv-social"><%= nb_comments %></div><img class="media-object pull-left" style="width: 100%; height: auto; margin-bottom:5px;margin-top: -39px;border-radius: 5px;" src="<%= post.thumbnail.src %>"></a>
 					<% } %>	
