@@ -43,6 +43,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', end
 
 
 @media (min-width:1020px){
+	
+	.fissa{
+	height:400px;
+	overflow:hidden;
+}
+
+	
+	
 	.mt-57{
 	margin-top:-127px;
 	padding:0;
@@ -2517,6 +2525,15 @@ html {
     content:  "\e614";
 }
 @media (max-width: 768px) {
+	
+	
+	.fissa{
+	height:285px;
+	overflow:hidden;
+}
+	
+	
+	
     .sidebar.open {
     min-width:  270px;
      width:  270px;
